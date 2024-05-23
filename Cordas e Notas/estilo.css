@@ -1,0 +1,66 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border: 1px solid black ;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    padding: 5px;
+    list-style-type: none;
+}
+
+section {
+    margin-top:5px ;
+    
+ 
+}
+
+section #direita {
+  
+    float: right;
+    width:70% ;
+	
+}
+section #esquerda {
+    
+    float: left;
+    width: 30% ;
+}
+section #esquerda p{
+font-size:50px;  
+}
+section #direita img{
+    width: 30%;
+}
+
+section #esquerda p{
+font-size:50px;
+}
+section #instrumentos {
+	
+	float: right;
+	width: 70% ;
+}
+section #instrumentos {
+	 
+	 float: left;
+	 width: 30% ;
+}
+section #instrumentos p{
+font-size:50px;
+}
+section #instrumentos img{
+	width: 30%;
+}
+section #instrumentos p{
+font-size:50px;
+}
+	
