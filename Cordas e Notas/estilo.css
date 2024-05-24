@@ -5,7 +5,8 @@
 }
 
 header{
-    border: 1px solid black ;
+    border-bottom: 1px solid black ;
+	padding:10px;
 }
 
 header nav ul{
@@ -15,8 +16,12 @@ header nav ul{
 header nav ul li{
     padding: 5px;
     list-style-type: none;
+	margin-left:10px;
 }
-
+header nav #login{
+margin-left:800px;
+}
+	
 section {
     margin-top:5px ;
     
@@ -44,23 +49,38 @@ section #direita img{
 section #esquerda p{
 font-size:50px;
 }
-section #instrumentos {
+
+section {
+    margin-top:5px ;
+    
+ 
+}
+
+section #instrumentos{
+  
+    float: right;
+    width:70% ;
 	
-	float: right;
-	width: 70% ;
 }
-section #instrumentos {
-	 
-	 float: left;
-	 width: 30% ;
+section #instruments {
+    
+    float: left;
+    width: 30% ;
 }
-section #instrumentos p{
-font-size:50px;
+section #instruments p{
+font-size:50px;  
 }
 section #instrumentos img{
-	width: 30%;
+    width: 30%;
 }
-section #instrumentos p{
+
+section #instruments p{
 font-size:50px;
 }
-	
+
+
+section {
+    margin-top:5px ;
+    
+ 
+}
